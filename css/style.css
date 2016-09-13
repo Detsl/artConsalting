@@ -1,0 +1,377 @@
+html {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header, main, footer, article, menu, nav
+{
+    display: block;
+}
+header {
+
+    width: auto;
+    min-height: 820px;
+    height: auto;
+   background-image: url("../pictures/bacground/main3.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position:center ;
+
+
+
+
+}
+header>div>.logo{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    top:20px;
+
+
+
+}
+header>div>nav>ul>.logo>a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url("../pictures/logo/back.png") no-repeat ;
+    background-position: center;
+    background-size: cover ;
+
+
+}
+.upper-menu {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+
+}
+.menu{
+    padding: 0;
+}
+.menu-button{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    margin-top: 40px;
+
+
+}
+.menu-button>a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+
+}
+.menu-button>a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid darkred;
+    color: red;
+    transition-duration: 160ms;
+
+
+}
+.aboutCompany {
+
+    max-width: 600px;
+    width: auto;
+    height: 200px;
+    margin: auto;
+clear: both;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: rgba(255, 82, 82, 0.3);
+
+
+
+
+
+    
+}
+@media all and (max-width:780px) {
+    .aboutCompany{
+        margin-top: 400px;
+    }
+
+}
+.aboutCompany>h1{
+    padding-top: 50px;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+
+
+
+
+}
+.aboutCompany>p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding: 15px;
+}
+.makeOrder {
+    display: block;
+    background-color: rgba(255, 82, 82, 0.3);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px ;
+    width: 250px;
+    height: 50px;
+    border: none;
+    margin: auto;
+    margin-top: 100px;
+
+
+}
+.makeOrder:hover {
+
+    background-color: darkred;
+    color: white;
+    transition-duration: 240ms;
+
+
+}
+.makeOrder1:hover {
+
+    background-color: darkred;
+    color: white;
+    transition-duration: 240ms;
+    border: none;
+}
+
+main {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+
+main>section {
+    width: auto;
+    min-height: 920px;
+    height: auto;
+}
+
+.services {
+    background-color: whitesmoke;
+}
+body > main > section.services > div > h2{
+    margin: 0 auto;
+    display: block;
+    width: 700px;
+    text-align: center;
+    font-weight: 200;
+}
+.descriptionPic{
+    float: right;
+    max-width: 750px;
+    width: auto;
+
+
+    overflow:hidden;
+
+}
+.descriptionPic>a>img:hover{
+    transform: scale(1.1);
+    transition-duration: 5s;
+}
+.descriptionPic>a>img{
+    transition-duration: 2s;
+}
+
+
+.services>div{
+    padding-top: 50px;
+}
+.descriptionS{
+margin-top: 50px;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+.descriptionS>ul>li{
+
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    list-style: none;
+}
+
+
+
+.descriptionS>ul{
+padding: 0;
+   margin: 0;
+}
+.descriptionPic{
+    margin-top: 50px;
+    float: right;
+    height: auto;
+
+
+
+}
+.makeOrder1 {
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px ;
+    width: 250px;
+    height: 50px;
+    border: none;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+
+}
+
+.clients{
+    width: auto;
+    min-height: 820px;
+    height: auto;
+    background-image: url("../pictures/bacground/main4.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position:center ;
+    color: white;
+}
+body > main > section.clients > div > h2{
+
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    width: 700px;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 82, 82, 0.3);
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.partners{
+
+    height: 300px;
+    margin-bottom: 30px;
+
+}
+.descrip{
+    background-color: rgba(255, 82, 82, 0.3);
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+.descrip:hover{
+    background-color: darkred;
+    transition-duration: 340ms;
+
+
+}
+
+
+.information{
+    background-color: whitesmoke;
+}
+body > main > section.information > div > h2{
+    margin: 0 auto;
+    display: block;
+    width: 700px;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+body > main > section.information > div > p{
+    text-align: center;
+    font-size: 16px;
+}
+.orderForm {
+    background-color: rgba(255, 82, 82, 0.3);
+    width: 500px;
+    height: auto;
+    border: 2px solid rgba(255, 82, 82, 0.3);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+.orderForm>p{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px ;
+}
+
+.order{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+input, textarea{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.formButtons{
+    background-color: white;
+}
+.formButtons:hover{
+    background-color: darkred;
+    color: white;
+    transition-duration: 140ms;
+    border-color: darkred;
+}
+
+
+
+footer{
+    width: auto;
+    min-height: 200px;
+    height: auto;
+    background-image:url("../pictures/bacground/main3.jpg") ;
+    background-repeat:no-repeat ;
+    background-size: 100% ;
+    background-position: center ;
+
+}
+
+.logoTDS{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-image:url("../pictures/studioLogo/logo.png") ;
+    background-size: cover;
+    margin-top: 70px;
+}
+.logoTDS>a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.artContacts{
+    margin-top: 50px;
+    float: right;
+    width: 300px;
+    height: 200px;
+    color: white;
+}
