@@ -276,8 +276,8 @@ body > main > section.services > button > a:hover{
     background-position:center ;
     color: white;
 }
-.clients>div:nth-child(1),.clients>div:nth-child(2),.clients>div:nth-child(3){
-    margin-top: 150px;
+.clients>div:nth-child(1),.clients>div:nth-child(2){
+    margin-top: 100px;
 }
 body > main > section.clients > div > h2{
 
