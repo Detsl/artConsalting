@@ -270,7 +270,7 @@ body > main > section.services > button > a:hover{
     width: auto;
     min-height: 820px;
     height: auto;
-    background-image: url("../pictures/bacground/main4.jpg");
+    background-image: url("../pictures/bacground/main4 копия.jpg");
     background-repeat: no-repeat ;
     background-size: cover ;
     background-position:center ;
@@ -301,14 +301,14 @@ body > main > section.clients > div > h2{
 
 }
 .descrip{
-    background-color: rgba(255, 82, 82, 0.3);
+    background-color: rgba(166, 166, 166, 0.5);
     text-align: center;
     border-radius: 10px;
 
 
 }
 .descrip:hover{
-    background-color: darkred;
+    background-color: rgba(255, 82, 82, 0.3);
     transition-duration: 340ms;
 
 
@@ -332,10 +332,10 @@ body > main > section.information > div > p{
     font-size: 16px;
 }
 .orderForm {
-    background-color: rgba(255, 82, 82, 0.3);
+    background-color: rgba(166, 166, 166, 0.5);
     width: 500px;
     height: auto;
-    border: 2px solid rgba(255, 82, 82, 0.3);
+    border: 2px solid rgba(166, 166, 166, 0.5);
     border-radius: 10px;
     margin: auto;
     margin-top: 200px;
