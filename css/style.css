@@ -307,19 +307,19 @@ body > main > h2{
     font-size: 32px;
 }
 #info > div > ul{
-    font-size: 32px;
+    font-size: 28px;
 
 }
 
 body > main > section.clients > div:nth-child(2) > div > ul{
 
-    font-size: 32px;
+    font-size: 28px;
 }
 body > main > section.clients > div:nth-child(3) > div > ul{
-    font-size: 32px;
+    font-size: 28px;
 }
 body > main > section.clients > div:nth-child(4) > div > ul{
-    font-size: 32px;
+    font-size: 28px;
 
 }
 #info > div > ul>li{
