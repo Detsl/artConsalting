@@ -279,19 +279,9 @@ body > main > section.services > button > a:hover{
 .clients>div:nth-child(1),.clients>div:nth-child(2){
     margin-top: 100px;
 }
-body > main > section.clients > div > h2{
-
-    margin: 0 auto;
-    margin-top: 50px;
-    display: block;
-    width: 700px;
-    text-align: center;
-    font-weight: 200;
-    padding-top: 50px;
-    margin-bottom: 50px;
-    background-color: rgba(255, 82, 82, 0.3);
-    padding-bottom: 50px;
-    border-radius: 10px;
+body > main > h2{
+    margin: 0 auto !important;
+    width: 250px;
 }
 
 .partners{
@@ -316,19 +306,38 @@ body > main > section.clients > div > h2{
 #info div>p{
     font-size: 32px;
 }
-body > main > section.clients > div:nth-child(2) > div > p{
-    font-size: 32px;
-
-}
-body > main > section.clients > div:nth-child(3) > div > p{
-    font-size: 32px;
-
-}
-body > main > section.clients > div:nth-child(4) > div > p{
+#info > div > ul{
     font-size: 32px;
 
 }
 
+body > main > section.clients > div:nth-child(2) > div > ul{
+
+    font-size: 32px;
+}
+body > main > section.clients > div:nth-child(3) > div > ul{
+    font-size: 32px;
+}
+body > main > section.clients > div:nth-child(4) > div > ul{
+    font-size: 32px;
+
+}
+#info > div > ul>li{
+    text-align: left;
+
+}
+
+body > main > section.clients > div:nth-child(2) > div > ul>li{
+
+    text-align: left;
+}
+body > main > section.clients > div:nth-child(3) > div > ul>li{
+    text-align: left;
+}
+body > main > section.clients > div:nth-child(4) > div > ul>li{
+    text-align: left;
+
+}
 
 .information{
     background-color: whitesmoke;
