@@ -425,3 +425,127 @@ footer{
     height: 200px;
     color: white;
 }
+
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    body > header > div.upper-menu.container > div{
+        display: block;
+        width: 250px;
+        height: 200px;
+    }
+    body > header > div.upper-menu.container > div > a{
+        width: 250px;
+        background-size: 100%;
+    }
+    #contactus > div > div{
+        width: 300px;
+        padding-left: 15px;
+        margin-top: 30px;
+    }
+    #contactus > div > h2{
+        width: 300px;
+        height: 100px;
+    }
+    body > header > div.aboutCompany{
+        margin: 0 5px;
+
+    }
+    body > header > div.aboutCompany > h1{
+        padding-top: 25px;
+    }
+    body > header > button{
+        margin-top: 10px;
+    }
+    .clients>#info,body > main > section.clients > div:nth-child(2) {
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+    body > main > section.clients > div:nth-child(3){
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    body > main > section.clients > div:nth-child(4)
+    {
+        margin-bottom: 0;
+    }
+    #contactus > div{
+        height: 200px;
+    }
+   main>#contactus{
+        min-height: 550px;
+    }
+    #contacts > div.logoTDS, #contacts > div.artContacts {
+        margin: 0;
+        margin-top: 10px;
+        float: none;
+        margin-left: 10px;
+
+    }
+    body > footer{
+       height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
